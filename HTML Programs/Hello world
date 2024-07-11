@@ -1,0 +1,10 @@
+// HTML Program to write Hello World
+
+<html> // root tag
+  <head> // metadata
+  <title> First Program </title> // display in tab
+  </head>
+  <body> // we write content here
+    <h2> Hello World </h2> //h2 is a heading tag
+  </body>
+</html>
