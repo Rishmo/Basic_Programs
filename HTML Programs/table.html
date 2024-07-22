@@ -1,32 +1,42 @@
-<html>
-    <head>
-        <title> table creation </title>
-    </head>
-    <body>
-        <table bgcolor="purple" cellpadding="2" cellspacing="5" border="2px">
-            <caption> <b>Table Creation </b></caption>
-            
-            <tr align="center"> 
-                <th>Name</th>
-                <th>Roll No</th>
-                <th>Phone number</th>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <center>
+    <caption>A test table with merged cells</caption>
+    <table border="black">
+        <thead>
+            <tr>
+                <th rowspan="2"> &nbsp; </th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red eyes</th>
             </tr>
-            <tr align="center">
-                <td>Moon</td>
-                <td>79</td>
-                <td>7267899618</td>   
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
             </tr>
-            <tr align="center">
-                <td>Ravi</td>
-                <td>80</td>
-                <td>6267899618</td>   
-            </tr>
-            <tr align="center">
-                <td>Annu</td>
-                <td>78</td>
-                <td>7367899618</td>   
-            </tr>
-        </table>
-    </body>
+        </thead>
 
+        <tbody>
+            <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+
+            <tr>
+                <td>Feales</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+</body>
 </html>
