@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+</head>
+<body>
+    <form action="https://www.google.com/search?q=apple">
+        <input type="text" name="q" placeholder="search in google" />
+        <button>Submit</button>
+
+        <hr>
+        <label for="username">Enter username: </label>
+        <input type="text" id="username" placeholder="username" />
+
+        <hr>
+        <input type="checkbox" name="age" id="age" checked/>
+        <label for="age">I am 18+</label>
+
+        <hr>
+        <input type="radio" name="fruit" id="apple" value="apple"/>
+        <label for="apple">Apple</label>
+
+        <hr>
+        <div>
+        Choose your profession
+            <select name="profession">
+                <option value="Student">Student</option>
+                <option value="Professor">Professor</option>
+            </select>
+        </div>
+        <hr>
+        <label for="vol">Select your volume level: </label>
+        <input type="range" id="'vol" min="0" max="100" name="vol" step="3" value="8">
+        <button>Submit</button>
+
+        <hr>
+        <label for="feedback">
+            Please give your valuable feedback :)</label>
+        <textarea id="feedback" name="feedback" 
+        placeholder="write your feedback here!" rows="5" cols="100"></textarea>
+        <button>Submit</button>
+    </form>
+    <hr>
+    <form>
+        New form creation for practice number 9
+
+        <h1>Registration Form</h1>
+
+        <div>
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Last Name" />
+        </div>
+
+        <div>
+            Please select gender
+            <select>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Others</option>
+            </select>
+        </div>
+
+        <div>
+            Do you agree to all terms of services?
+            <input type="checkbox"> Yes,I agree
+        </div>
+
+        <button>Register</button>
+
+    </form>
+</body>
+</html>
