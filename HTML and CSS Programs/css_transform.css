@@ -1,0 +1,49 @@
+section{
+    margin-top: 100px;
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+
+/* transform */
+/* Rotate */
+#one{
+    transform: rotate(45deg);
+}
+
+/* Transform Scale */
+#two{
+    transform:scale(0.5);
+}
+
+/* Transform translate */
+#three{
+    transform:translateX(-100px);
+}
+
+/* Transform Skew */
+
+#four{
+    transform:skew(-30deg);
+}
+
+
+#five{
+    transform: rotate(30deg) translate(150px);
+}
+/*  */
