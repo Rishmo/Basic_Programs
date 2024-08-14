@@ -1,0 +1,119 @@
+h3{
+    background-color: antiquewhite;
+}
+
+*{
+    font-family: Courier New;
+}
+
+h1{
+    color: #b92b27;
+}
+
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+
+#myld{
+    color:green;
+}
+
+/* descendent selector */
+
+.post a{
+    color:purple;
+    background-color: yellow;
+}
+
+nav ul li a{
+    color:hotpink;
+}
+
+/* adjacent sibling combinator*/
+
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: blue;
+    color: darkblue;
+}
+
+/* child combinator*/
+
+div > input{
+    background-color: darksalmon;
+}
+
+/* attribute selector */
+
+input[type="text"]{
+    color: green;
+}
+
+input[type="password"]{
+    color:red;
+}
+
+input[type]{
+    background-color: ghostwhite;
+}
+
+/* Pseudo class */
+/* Hover Effect */
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: none;
+}
+
+/* Active effect*/
+
+button:active{
+    background-color: pink;
+}
+
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+/* Checked Effect */
+
+input[type="radio"]:checked + label{
+    color:red;
+    font-weight: bold;
+}
+
+/* nth-of-type effect*/
+.post:nth-of-type(2n){
+    background-color: bisque;
+}
+
+/* pseudo element*/
+
+h1::first-letter{
+    color: black;
+}
+
+p::first-line{
+    color:blue;
+}
+
+p::selection{
+    background-color: rgb(187, 255, 0);
+}
