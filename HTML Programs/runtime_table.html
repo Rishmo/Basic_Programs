@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runtime Table Creation</title>
+
+    <script>
+        function tab(){
+            var table = document.createElement("table");
+            table.border="1";
+            for(var i=1; i<=4; i++){
+                var tr= document.createElement("tr");
+
+                var td1= document.createElement("td");
+                var td2= document.createElement("td");
+
+                var text1= document.createElement("text1");
+                var text2= document.createElement("text2");
+
+                td1.appendChild(text1);
+                td2.appendChild(text2);
+                tr.appendChild(td1);
+                tr.appendChild(td2);
+                table.appendChild(tr);
+            }
+            document.body.appendChild(table);
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="button" onclick="tab()" value="click">
+    </form> 
+    
+</body>
+</html>
