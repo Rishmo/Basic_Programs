@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Image</title>
+</head>
+<body>
+    <h1>JavaScript can change Images</h1>
+    <img id="myImage" onclick="changeimage()" src="a.jpeg" width="100" height="180">
+    <script>
+        function changeimage(){
+            var image=document.getElementById("myImage");
+            image.src="b.jpeg";
+            image.width="200";
+            image.height="280";
+        }
+    </script>
+     <!-- <img id="secondImage" onclick="changeimage()" src="b.jpeg" width="200" height="280">
+     <script>
+         function changeimage(){
+             var image=document.getElementById("secondImage");
+             image.src="c.jpeg";
+             image.width="300";
+             image.height="380";
+         }
+     </script> -->
+</body>
+</html>
